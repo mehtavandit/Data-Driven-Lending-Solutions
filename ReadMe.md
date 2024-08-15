@@ -43,10 +43,7 @@ All these datasets are in CSV format and represent a simplified version of what 
   - **Created External Tables**: Defined external tables for each type of data to facilitate access for other teams.
   - **Created a View for Overview**: Developed a view that provides a consolidated overview of the complete loan data.
   - **Weekly Overview Table**: Implemented a table for a single overview of complete loan data, updated weekly by a script to ensure quick access to the most recent data.
-  - **Loan Score Calculation**: Computed loan scores based on:
-    - Loan Repayment History: Assessed payment history for score determination.
-    - Loan Defaulters History: Evaluated historical default data.
-    - Customer's Financial Health: Analyzed financial health metrics of customers.
+  - **Loan Score Calculation**: Computed loan scores.
 
 ## 3. Loan Score Calculation
 
@@ -84,7 +81,7 @@ This phase calculates loan scores based on various criteria and assigns final gr
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/mehtavandit/Data-Driven-Lending-Solutions/tree/master
     ```
 2. Set up a Spark environment: Follow the instructions [here](https://spark.apache.org/docs/latest/) to set up Spark and Hadoop.
 3. Configure Spark session with appropriate settings for your environment.
